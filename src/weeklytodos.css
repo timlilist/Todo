@@ -1,0 +1,35 @@
+.dayCard {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 30px;
+    width: 300px;
+    gap: 5%;
+    padding-left: 23px;
+    background-color:rgb(217, 208, 241);
+}
+
+.dayPicture {
+    width: 80px;
+}
+
+.dayName {
+    font-size: 40px;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1500px;
+    justify-content: center;
+    margin: auto;
+}
+
+.dayLink {
+    text-decoration: none;
+    color: black;
+}
+
+.dayLink:hover {
+    color: blueviolet;
+}
